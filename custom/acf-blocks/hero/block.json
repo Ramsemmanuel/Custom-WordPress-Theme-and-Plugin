@@ -1,0 +1,16 @@
+{
+  "name": "custom/hero",
+  "title": "Hero Section",
+  "category": "layout",
+  "description": "Landing page hero section",
+  "icon": "cover-image",
+  "keywords": ["hero", "intro", "landing"],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "hero.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true
+  }
+}

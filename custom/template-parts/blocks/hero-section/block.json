@@ -1,0 +1,16 @@
+{
+  "name": "acf/hero-section",
+  "title": "Hero Section",
+  "description": "A custom hero section block.",
+  "category": "layout",
+  "icon": "align-wide",
+  "keywords": ["hero", "banner", "heading"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "jsx": true
+  }
+}

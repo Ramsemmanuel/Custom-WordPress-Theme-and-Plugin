@@ -1,0 +1,11 @@
+{
+  "name": "custom/latest-posts",
+  "title": "Latest Blog Posts",
+  "category": "widgets",
+  "description": "Shows latest blog entries",
+  "icon": "admin-post",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "latest-posts.php"
+  }
+}

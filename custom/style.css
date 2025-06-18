@@ -1,0 +1,33 @@
+/*
+Theme Name: Custom Theme
+Theme URI: https://yourwebsite.com/
+Author: Your Name
+Author URI: https://yourwebsite.com/
+Description: A custom WordPress theme built from scratch.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: custom-theme
+*/
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  transition: background 0.3s ease;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.site-header.transparent {
+  background: transparent;
+  box-shadow: none;
+}
+
+body.scrolled .site-header.transparent {
+  background: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.nav-logo img {
+  width: 50% !important;
+}
